@@ -23,7 +23,6 @@ with open("README.md") as readme_file:
 setup(
     author="MLPerf",
     author_email="mlperf@local",  # TODO
-    python_requires=">=3.8",
     description="MLPerf utilities for NVIDIA related submissions",
     license="Apache Software License 2.0",
     long_description=readme,
